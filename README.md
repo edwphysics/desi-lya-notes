@@ -1,29 +1,59 @@
 # DESI Lyman-alpha Notes
 
-Este repositorio contiene notas, scripts y exploraciones relacionadas con mi trabajo en el análisis del bosque Lyman-α dentro de DESI.
+This repository contains notes, scripts, and exploratory work related to my contributions to the Lyman-alpha analysis within DESI.
 
-## Objetivo
+## Objective
 
-Documentar mi proceso de aprendizaje y trabajo en:
+The goal of this repository is to document my learning process and practical work on:
 
-- Pipeline de Lyman-α
-- Generación de archivos delta
-- Función de correlación
-- Medición de BAO
+- Lyman-alpha forest analysis
+- Delta field extraction
+- Two-point correlation function
+- Baryon Acoustic Oscillations (BAO)
 
-## Importante
+## Scope and Philosophy
 
-- Este NO es un tutorial oficial
-- Está basado en mi experiencia personal
-- Algunas partes dependen de entornos como NERSC y no son completamente reproducibles
+This is **not an official tutorial**. Instead, it is a collection of:
 
-## Estructura
+- Personal notes
+- Reproducible snippets (when possible)
+- Practical insights from working with the pipeline
+- Common issues and how they were resolved
 
-- `notes/`: explicaciones y problemas resueltos
-- `notebooks/`: exploraciones y pruebas
-- `scripts/`: código útil
-- `pipeline/`: descripción general del flujo de análisis
+The focus is on **clarity over completeness** and **practical understanding over formal documentation**.
 
-## Filosofía
+## Repository Structure
 
-Este repo prioriza claridad sobre perfección.
+- `notes/`  
+  Explanations, problem-solving logs, and conceptual clarifications.
+
+- `notebooks/`  
+  Exploratory analysis, tests, and visualizations.
+
+- `scripts/`  
+  Utility scripts used during the workflow (may depend on specific environments).
+
+- `pipeline/`  
+  High-level descriptions of the Lyman-alpha analysis pipeline.
+
+- `assets/`  
+  Figures, diagrams, and supporting material.
+
+## Important Notes
+
+- Some workflows depend on specific environments (e.g., NERSC) and may not be directly reproducible.
+- Paths, data, and configurations have been abstracted when necessary.
+- This repository reflects an **ongoing process**, not a finished product.
+
+## Motivation
+
+Working with Lyman-alpha data and large-scale structure pipelines often involves a steep learning curve and limited intermediate-level documentation.
+
+This repository aims to:
+- Reduce that friction
+- Provide practical guidance
+- Serve as a reference for future work (both for myself and others)
+
+## Disclaimer
+
+This repository is based on personal experience and is not an official DESI resource.
